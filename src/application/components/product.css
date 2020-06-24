@@ -1,0 +1,12 @@
+.image-product {
+    width: 300px;
+    height: 250px;
+    background: url("mid.jpg");
+    background-size: cover;
+}
+.product-prise {
+    font-size: 20px;
+    color: brown;
+
+}
+
