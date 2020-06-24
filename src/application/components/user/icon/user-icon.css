@@ -1,0 +1,6 @@
+.user-image {
+    flex-grow: 1;
+    background: url("./user.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
