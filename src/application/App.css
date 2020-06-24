@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 960px;
+    margin: auto;
+}
