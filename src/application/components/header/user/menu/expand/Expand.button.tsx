@@ -1,10 +1,13 @@
 import React from "react";
 import './expand.button.css';
-import UserIcon from "../../icon/UserIcon";
+import UserIcon from "../../../../user/icon/UserIcon";
 
-function ExpandButton() {
+const ExpandButton: React.FC<{onClick():void}> = (props) => {
     return (
-        <div className="expand-button">
+        <div
+            className="expand-button"
+            onClick={props.onClick}
+        >
             <div className="user-icon-wrapper">
                 <UserIcon/>
             </div>

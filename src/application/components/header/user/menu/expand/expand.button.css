@@ -19,7 +19,7 @@
 .expand-down-image {
     width: 10px;
     height: 10px;
-    background: url("./down-image.png");
+    background: url("down-image.png");
     background-size: cover;
     margin: 4px;
 }
