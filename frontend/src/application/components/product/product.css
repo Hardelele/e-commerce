@@ -1,0 +1,26 @@
+.product {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: #bcbcbc 1px solid;
+    border-radius: 2px;
+}
+
+.image-product {
+    flex-grow: 1;
+    background: url("mid.jpg") center;
+    background-size: cover;
+}
+
+.product-prise {
+    font-size: 16px;
+    color: #4b4b4b;
+    margin: auto;
+    padding: 2px;
+}
+
+.product-name {
+    font-size: 16px;
+    color: #818181;
+}
